@@ -1,0 +1,51 @@
+.container {
+  min-height: 92vh;
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.colcontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rowcontent {
+  display: flex;
+  flex-direction: row;
+  min-height: 92vh;
+}
+
+.loginformforgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.loginformbutton {
+  width: 100%;
+}
+
+.linkedinbutton {
+  width: 100%;
+  color: white;
+  background: #0073b1;
+  font-weight: bold;
+}
+
+.gmailbutton {
+  width: 100%;
+  color: white;
+  background: #d93025;
+  font-weight: bold;
+}
+
+.displayflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
